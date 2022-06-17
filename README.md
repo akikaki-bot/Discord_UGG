@@ -1,6 +1,6 @@
 # Discord User Guild Get (UGG)
 
-BearerTokenからユーザー情報を取得し、Array<Data>で返却します。
+BearerTokenからユーザー情報を取得し、`Array<Data>`で返却します。
 
 # Types
 
@@ -30,3 +30,20 @@ ArrayHikisuu (ただの飾りです)
 
 ```
 
+## Use
+
+```js
+
+const { GetUserGuild  } = require('./your/holder/src/index')
+
+const user = new GetUserGuild()
+
+user.get(UserBearerToken).then(data => {
+    // dataはData配列で帰ってきます
+    data.forEach(d => {
+        console.log(d)
+        //return Data {}
+    })
+})
+
+```
