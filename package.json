@@ -1,0 +1,16 @@
+{
+  "name": "discord_userguild_get",
+  "version": "1.0.1alpha",
+  "description": "ユーザーの参加サーバーを簡単に取得します。",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "akikaki <datatensouakikaki@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "typescript": "^4.7.3"
+  }
+}
